@@ -1,0 +1,2273 @@
+/**
+ * VictorThemes Styling
+*/
+
+/* Livesay Responsive CSS */
+@media screen and (max-width:1600px) {
+	/* Livesay Past Event Page CSS */
+	.file-info {
+		padding: 80px;
+	}
+	/*	.is-sticky .lvsy-logo img.default-logo.sticky-logo{
+		display: block;
+	}
+	*/
+}
+
+@media screen and (max-width:1279px) {
+	/* Livesay Past Event Page CSS */
+	.file-info {
+		padding: 80px 80px 60px;
+	}
+	.file-info .clearfix .lvsy-btn {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width:1199px) {
+	/* Livesay Normal CSS */
+	.lvsy-nav > ul > li {
+		padding: 0 12px;
+	}
+	.lvsy-heading-wrap .lvsy-heading {
+		font-size: 72px;
+		line-height: 62px;
+	}
+	.lvsy-heading-wrap .event-time {
+		font-size: 18px;
+	}
+	.lvsy-heading-wrap .clearfix {
+		padding-top: 15px;
+	}
+	.speaker-info .speaker-name {
+		font-size: 16px;
+	}
+	.event-item:nth-child(2n) .event-speaker {
+		margin-left: 20px;
+	}
+	.event-item:nth-child(2n) .event-speaker:before {
+		left: -44px;
+	}
+	.event-item:nth-child(2n) .event-info {
+		margin-right: 20px;
+	}
+	.event-speaker {
+		margin-right: 20px;
+	}
+	.event-speaker:before {
+		right: -45px;
+	}
+	.event-info {
+		margin-left: 20px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info {
+		width: 685px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-item:nth-child(2n) .event-info {
+		margin-right: 0;
+	}
+	.lvsy-accommodation .lvsy-carousel {
+		margin: 0 -10px;
+	}
+	.lvsy-accommodation .owl-item {
+		padding: 0 10px;
+	}
+	.pricing-item .price {
+		float: none;
+		width: auto;
+		padding: 50px 40px;
+		border-bottom: 1px solid #ececec;
+		border-right: none;
+	}
+	.pricing-info {
+		float: none;
+		width: auto;
+		padding: 35px 40px 40px;
+	}
+	.lvsy-secondary {
+		padding-right: 30px;
+	}
+	/* Livesay Home V2 Page CSS */
+	.conference-wrap {
+		background-size: 50% auto;
+	}
+	.conference-info h2 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.service-item p {
+		font-size: 15px;
+	}
+	/* Livesay Home V3 Page CSS */
+	.lvsy-conference.conference-style-three .lvsy-countdown .countdown_section {
+		min-width: 105px;
+		margin-right: 10px;
+	}
+	.lvsy-conference.conference-style-three .lvsy-countdown .countdown_amount {
+		font-size: 40px;
+	}
+	.lvsy-pricing.pricing-style-two .row {
+		margin: 0 -15px;
+	}
+	.lvsy-pricing.pricing-style-two [class*="col-"] {
+		padding: 0 15px;
+	}
+	.lvsy-pricing.pricing-style-two .pricing-item {
+		padding: 35px;
+		margin-bottom: 30px;
+	}
+	.lvsy-pricing.pricing-style-two .pricing-item .price {
+		border-bottom: none;
+	}
+	/* Livesay Single Events Page CSS */
+	.event-author {
+		padding: 25px;
+	}
+	.lvsy-donor-info {
+		padding: 0;
+	}
+	.lvsy-donor-info h4, .lvsy-donor-info h5 {
+		margin-bottom: 5px;
+	}
+	/* Livesay About Page CSS */
+	.lvsy-conference.conference-spacer-two .conference-info {
+		padding-top: 0;
+	}
+	/* Livesay lvsy-donors Page CSS */
+	.one-fifth {
+		width: 25%;
+	}
+  /* Livesay Venus Page CSS */
+  .lvsy-accommodation.accommodation-style-two {
+    padding-bottom: 50px;
+  }
+  .lvsy-accommodation .row {
+    margin: 0 -15px;
+  }
+  .lvsy-accommodation [class*="col-"] {
+    padding: 0 15px;
+  }
+  .lvsy-accommodation.accommodation-style-two .accommodation-item {
+    margin-bottom: 30px;
+  }
+  /* Livesay Blog Page CSS */
+  .blog-info {
+    width: 95%;
+    padding: 35px;
+  }
+  /* Livesay Entry Content Page CSS */
+  .entry-content .comment-list .children {
+    padding-left: 20px;
+  }
+  /* Livesay Past Event Page CSS */
+  .lvsy-event-files {
+  	display: block;
+  	overflow: hidden;
+  	clear: both;
+  	height: auto;
+  }
+  .lvsy-event-files [class*="col-"] {
+  	width: 100%;
+  	height: auto;
+  }
+  .file-info {
+  	height: auto;
+  }
+	.lvsy-event-files .owl-item .item img {
+		height: auto;
+	}
+	/* Livesay Shop Page CSS */
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 30.7%;
+	}
+	/* Livesay Product Details Page CSS */
+	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+		padding: 0 0 0 30px;
+	}
+  /* Livesay Contact Page CSS */
+  .lvsy-map.contact-map {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width:1199px) and (min-width:992px) {
+  /* Livesay Venus Page CSS */
+  .lvsy-conference-facilities .col-md-3 {
+    width: 33.3333%;
+  }
+}
+@media screen and (max-width:1024px) {
+	.blog-infos {
+	    padding: 44px 27px 44px 10px;
+	}
+}
+@media screen and (min-width:992px) {
+	/* Livesay Normal CSS */
+	.lvsy-nav .dropdown:hover > .dropdown-menu {
+		display: block;
+		-webkit-animation: fadeIn 300ms;
+		animation: fadeIn 300ms;
+	}
+	.lvsy-nav .dropdown-menu {
+		-webkit-transition: all ease 300ms;
+		-ms-transition: all ease 300ms;
+		transition: all ease 300ms;
+	}
+	.lvsy-join-event .lvsy-cta-ctnt {
+		padding-left: 15px;
+	}
+	.lvsy-join-event .pull-right {
+		padding-right: 15px;
+	}
+}
+
+@media screen and (max-width:991px) {
+	/* Livesay Normal CSS */
+	.lvsy-container, .lvsy-contact-form .lvsy-container, .lvsy-past-event .lvsy-container, .lvsy-past-event .event-videos .lvsy-container {
+		width: auto;
+	}
+	.lvsy-header {
+		padding: 20px 0;
+	}
+	.page-title-wrap.transparent-titlr-bar {padding: 125px 0 67px;}
+	.lvsy-header.header-style-two .lvsy-nav > ul > li > a {
+		color: #222222;
+	}
+	.lvsy-logo {
+		padding-top: 0;
+	}
+	.lvsy-nav {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		width: 95%;
+		height: 50vh;
+		margin: 0 auto;
+		overflow: auto;
+		background: #ffffff;
+		-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+		-ms-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+		z-index: 1;
+	}
+	.lvsy-nav > ul > li {
+		display: block;
+		padding: 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+		width: 100%;
+	}
+	.lvsy-nav > ul > li > a {
+		padding: 13px 40px 13px 20px;
+	}
+	.lvsy-nav > ul > li.dropdown > a:after {
+		position: absolute;
+		top: 50%;
+		right: 15px;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: 17px;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		content: "\f107";
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		z-index: 1;
+	}
+	.navbar-nav > li > .dropdown-menu {
+		position: static;
+		width: 100%;
+	}
+	.lvsy-nav .dropdown-menu .dropdown-menu {
+    top: 0;
+    left: 0;
+    position: relative;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    padding-top: 0;
+	}
+
+	.lvsy-nav .dropdown {
+		position: static;
+		min-width: 100%;
+	}
+
+	.lvsy-nav .dropdown-menu > li.dropdown > a:after {
+		content: "\f107";
+	}
+	.lvsy-toggle {
+		display: inline-block;
+	}
+	.shopping-handbag {
+		padding-left: 25px;
+	}
+	.lvsy-heading-wrap .lvsy-heading {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	.lvsy-heading-wrap .event-time {
+		padding: 5px 0;
+	}
+	.event-speaker {
+		max-width: 100%;
+	}
+	.event-info {
+		width: auto;
+		padding: 30px 35px 27px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-menu {
+		overflow: visible;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-menu:before {
+		left: 0;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-item {
+		overflow: visible;
+		padding-left: 50px;
+	}
+	.event-item .event-time {
+		float: none;
+		padding-top: 20px;
+		text-align: left;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info {
+		float: none;
+		width: 100%;
+		padding: 10px 0 20px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info:before {
+		top: 17px;
+		left: -54px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info .event-title:before {
+		left: -59px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info .event-title:after {
+		left: -54px;
+	}
+	.lvsy-join-event {
+		text-align: center;
+	}
+	.lvsy-join-event .section-title-wrap {
+		padding-bottom: 25px;
+		text-align: center;
+	}
+	.lvsy-join-event .pull-right {
+		width: 100%;
+	}
+	.lvsy-donor-item {
+		margin: 0 5px 13px;
+	}
+	.accommodation-info {
+		padding: 20px;
+	}
+	.accommodation-title {
+		font-size: 14px;
+	}
+	.twitter-tweet {
+		width: 49.5% !important;
+	}
+	.lvsy-travel-info .nav-tabs {
+		margin-top: 40px;
+	}
+	.pricing-info ul {
+		overflow: visible;
+	}
+	.pricing-info ul li {
+		float: none;
+		width: auto;
+	}
+	.lvsy-primary {
+		float: none;
+		width: auto;
+		padding: 0 0 50px;
+	}
+	.lvsy-secondary {
+		float: none;
+		width: auto;
+    padding: 0;
+	}
+  .lvsy-right-sidebar .lvsy-primary {
+    float: none;
+  }
+  .lvsy-right-sidebar .lvsy-secondary {
+    float: none;
+    padding: 0;
+  }
+  .lvsy-travel-info .tab-content {
+  	padding: 20px 20px 26px;
+  }
+  .lvsy-travel-info .nav-tabs > li > a {
+  	padding: 11px 7px;
+  }
+	/* Livesay Home V2 Page CSS */
+	.pricing-item .price {
+		text-align: left;
+	}
+	.lvsy-conference.conference-style-two {
+		padding: 80px 0;
+		text-align: center;
+	}
+	.lvsy-conference.conference-style-two .conference-info {
+		padding: 0;
+		width: 100%;
+	}
+	.lvsy-conference.conference-style-two .conference-img {
+		display: none;
+	}
+	.conference-wrap {
+		min-height: 10px;
+		background: none;
+	}
+	/* Livesay Home V3 Page CSS */
+	.lvsy-conference.conference-style-three {
+		padding: 100px 0;
+		text-align: center;
+	}
+	.lvsy-conference.conference-style-three .pull-right {
+		width: 100%;
+	}
+	.lvsy-conference.conference-style-three .lvsy-countdown {
+		margin-top: 20px;
+	}
+	.lvsy-conference.conference-style-three .lvsy-countdown .countdown_section {
+		min-width: 120px;
+		margin: 0 10px;
+	}
+	.lvsy-conference.conference-style-three .lvsy-countdown .countdown_amount {
+		font-size: 50px;
+	}
+	/* Speakers */
+	.speaker-info {
+    width: calc(100% - 100px);
+    right: 0;
+    margin: 0 auto;
+	}
+	.speakers-style-two .speaker-info {
+		width: 100%;
+	}
+
+	/* Livesay Speaker Single Page CSS */
+	.speaker-detail-wrap {
+		padding-top: 30px;
+	}
+	/* Livesay About Page CSS */
+	.lvsy-conference.conference-style-two.conference-spacer-two {
+		padding: 80px 0;
+	}
+	.lvsy-conference.conference-style-two.conference-spacer-two .conference-info {
+		padding: 0 0 50px;
+	}
+	.lvsy-conference.conference-spacer-two .pull-right {
+		width: 100%;
+	}
+	/* Livesay lvsy-donors Page CSS */
+	.one-fifth {
+		width: 50%;
+	}
+  /* Livesay lvsy-donor Single Page CSS */
+  .lvsy-donor-detail .lvsy-donor-info {
+    padding: 0;
+  }
+  /* Livesay Blog Page CSS */
+  .lvsy-instagram-gallery ul li {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    width: 20%;
+    padding: 0 2px 7px;
+  }
+  .lvsy-instagram-gallery ul li img {
+    width: auto;
+  }
+  /* Livesay Past Event Page CSS */
+  .lvsy-event-video {
+  	height: 500px;
+  }
+  .tab-content {
+    padding: 50px 15px 0 15px;
+	}
+	.lvsy-event-schedule.schedule-tab-style-two .tab-content {padding: 0;}
+
+  /* Livesay Cart Page CSS */
+  .woocommerce table.shop_table td {
+  	padding: 25px;
+  }
+  .woocommerce table.shop_table td.product-thumbnail {
+  	text-align: center;
+  }
+  .woocommerce table.shop_table td.product-thumbnail a img {
+  	display: block;
+  	margin: 0 auto 10px;
+  }
+  .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+  	float: none;
+  	width: auto;
+  }
+  /* Livesay Checkout Page CSS */
+  .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+  	float: none;
+  	width: auto;
+  	padding-bottom: 50px;
+  }
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+  	float: none;
+  	width: auto;
+  }
+  .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+  	width: 48.5%;
+  }
+  /* Livesay Contact Page CSS */
+  .lvsy-map.contact-map {
+    height: 400px;
+  }
+  .contact-info {
+    padding: 10px 0 0;
+  }
+  .lvsy-contact .section-title-wrap {
+    padding-bottom: 15px;
+  }
+  /* Livesay 404 Page CSS */
+  .lvsy-error .clearfix img {
+    width: 400px;
+  }
+  /* Tribe Events Page */
+  .tribe-bar-mini .tribe-bar-search-filter {
+    padding: 10px;
+    width: 33.3333%;
+	}
+	.lvsy-secondary-speaker {
+		width: 50%;
+	}
+	.events-archive .tribe-bar-submit {
+    padding: 44px 0 0 10px;
+	}
+	.tribe-bar-mini .tribe-bar-views-inner {
+		padding: 24px 0 24px;
+	}
+	.tribe-bar-mini .tribe-bar-date-filter {
+		padding-left: 0;
+	}
+	.tribe-events-list .type-tribe_events h2 {
+    padding-top: 20px;
+	}
+	#tribe-bar-form .tribe-bar-views-inner label {
+		line-height: 21px;
+	}
+	/* Blog */
+	.blog-infos {
+	   padding: 44px 20px 44px 13px;
+	}
+	.sticky .blog-infos {
+    padding: 44px 18px 30px 13px;
+	}
+	#tribe-bar-form .tribe-bar-filters {
+    width: 100%;
+	}
+	#tribe-events-bar #tribe-bar-form #tribe-bar-views {
+		width: 30%;
+	}
+	.events-archive #tribe-bar-form .tribe-bar-submit input[type=submit] {
+		margin-top: 35px;
+	}
+	#tribe-bar-form.tribe-bar-collapse .tribe-bar-filters {
+		padding-bottom: 30px;
+	}
+
+}
+
+@media screen and (max-width:850px) {
+	/* Livesay Normal CSS */
+	.lvsy-event-schedule, .lvsy-join-event,
+	.lvsy-event-gallery, .lvsy-event-gallery.gallery-style-two,
+	.lvsy-travel-info, .lvsy-newsletter, .lvsy-pricing,
+	.lvsy-conference.conference-style-three, .lvsy-conference.conference-style-four,
+ .lvsy-main-wrap, .lvsy-past-event,  .lvsy-footer {
+		padding: 80px 0;
+	}
+		.lvsy-contact-form {padding: 20px 0;}
+
+		.contact-info { padding: 10px 0 0; }
+	.lvsy-conference {
+		padding: 10px 0 80px;
+	}
+	.lvsy-accommodation {
+		padding: 70px 0 40px;
+	}
+	.lvsy-feeds {
+		padding-top: 80px;
+	}
+	.lvsy-donors.lvsy-donors-style-two {
+		padding: 30px 0;
+	}
+	.lvsy-donors.lvsy-donors-style-two .section-title-wrap {
+		padding-bottom: 10px;
+	}
+	.lvsy-donors.lvsy-donors-style-two .lvsy-donor-item {
+		margin-bottom: 10px;
+	}
+	.page-title-wrap, .lvsy-page-title.title-style-two .page-title-wrap {
+		padding: 80px 0 90px;
+	}
+	.lvsy-page-title .page-title {
+		font-size: 36px;
+		line-height: 45px;
+	}
+	.lvsy-speakers.speakers-style-four {
+		padding: 80px 0 55px;
+	}
+  .lvsy-widget:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+	/* Livesay Home V2 Page CSS */
+	.lvsy-services {
+		padding: 80px 0 47px;
+	}
+	.service-item {
+		padding-bottom: 40px;
+	}
+	.lvsy-news {
+		padding: 80px 0 50px;
+	}
+	/* Livesay Home V3 Page CSS */
+	.lvsy-speakers.speakers-style-three {
+		padding: 80px 0 40px;
+	}
+	.pricing-wrap {
+		padding-top: 80px;
+	}
+	/* Livesay Speaker Single Page CSS */
+	.lvsy-speaker-detail {
+		padding-top: 80px;
+	}
+	/* Livesay lvsy-donors Page CSS */
+	.lvsy-donors.lvsy-donors-style-three {
+		padding: 80px 0 24px;
+	}
+	.lvsy-donors.lvsy-donors-style-three .lvsy-donor-category {
+		padding-bottom: 25px;
+	}
+	.lvsy-donors.lvsy-donors-style-three .lvsy-donor-title {
+		padding-bottom: 40px;
+	}
+  /* Livesay Venus Page CSS */
+  .lvsy-conference-facilities {
+    padding: 80px 0 55px;
+  }
+  /* Livesay Past Event Page CSS */
+  .lvsy-donors.lvsy-donors-spacer-three {
+  	padding-top: 80px;
+  }
+  /* Livesay Shop Page CSS */
+  .woocommerce ul.cart_list li:last-child, .woocommerce ul.product_list_widget li:last-child {
+  	padding-bottom: 0;
+  	margin-bottom: 0;
+  }
+  /* Livesay Cart Page CSS */
+  .woocommerce table.shop_table {
+  	margin-bottom: 50px;
+  }
+  /* Livesay 404 Page CSS */
+  .lvsy-error {
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width:800px) {
+	/* Product Single */
+	.lvsy-secondary {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width:799px) {
+	/* Livesay Normal CSS */
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.lvsy-content-area {padding-top: 70px;padding-bottom: 70px;}
+	.lvsy-nav {
+		width: 700px;
+	}
+	/* Livesay Home V2 Page CSS */
+	.service-item p {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width:768px) {
+	/* Tribe Events page */
+	#tribe-bar-form .tribe-bar-filters label.label-tribe-bar-date, #tribe-bar-form .tribe-bar-filters label.label-tribe-bar-search {
+		margin-top: 10px;
+	}
+	#tribe-events-header .tribe-events-sub-nav li a {
+		display: block;
+	}
+	.tribe-events-sub-nav li a {
+		background: transparent;
+		color: #232323;
+	}
+	.tribe-events-sub-nav li a:hover {
+		color: #df0969;
+	}
+	.tribe-bar-collapse #tribe-bar-collapse-toggle {
+    width: 100%;
+	}
+	#tribe-bar-form.tribe-bar-collapse .tribe-bar-views-inner {
+    padding: 25px 0 25px;
+	}
+	.events-archive .tribe-bar-submit {
+    padding: 45px 15px 0 15px;
+	}
+	.tribe-bar-date-filter {
+    padding-left: 15px;
+	}
+	.tribe-events-calendar .mobile-active div[id*="tribe-events-daynum-"],
+	.tribe-events-calendar td.tribe-events-present,
+	.tribe-events-calendar td.tribe-events-present.mobile-active,
+	.tribe-events-calendar td.tribe-events-present.mobile-active div[id*="tribe-events-daynum-"],
+	.tribe-events-calendar td.mobile-active, #tribe-events-content .tribe-events-calendar .mobile-active:hover,
+	#tribe-events-content .tribe-events-calendar td.tribe-events-present.mobile-active:hover,
+	#tribe-events-content .tribe-events-calendar td.tribe-events-present:hover, .tribe-events-calendar td.tribe-events-present,
+	.tribe-events-calendar td.tribe-events-past.mobile-active div[id*="tribe-events-daynum-"],
+	#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active,
+	.tribe-events-calendar td.mobile-active,
+	#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active div[id*="tribe-events-daynum-"] {
+		background-color: #f30c74;
+	}
+	.tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"] {
+		text-align: center;
+	}
+	#tribe-mobile-container {
+		padding: 20px 0;
+	}
+	#tribe-bar-form .tribe-bar-views-inner label {
+    line-height: 14px;
+	}
+	/* Home 3 */
+	.lvsy-pricing.pricing-style-two .pricing-item .pricing-info .lvsy-btn {
+		min-width: 50%;
+	}
+	/* Speakers */
+	.speaker-info {
+    width: calc(100% - 60px);
+	}
+	/* Shop */
+	.woocommerce.woo-col-3 ul.products li.product, .woocommerce-page ul.products li.product,
+	.woocommerce.woo-col-4 ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 270px;
+	}
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product,
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		float: none;
+		margin: 0 3.33% 28px 0;
+	}
+	.woocommerce ul.products {
+    padding-top: 50px;
+    text-align: center;
+	}
+	.woocommerce table.cart td.actions .coupon {
+		float: none;
+	}
+	.woocommerce-cart table.cart td.actions .coupon .input-text {
+    width: 48%;
+	}
+	.woocommerce-page table.cart td.actions .button {
+    margin-bottom: 5px;
+	}
+	.woocommerce-checkout .lvsy-content-area {
+		padding: 80px 15px;
+	}
+	.lvsy-more-posts .pull-left {margin-bottom: 20px;}
+
+}
+
+@media screen and (max-width:767px) {
+	/* Livesay Normal CSS */
+	body [class*="col-"] {
+		padding: 0;
+	}
+	p {
+		margin-bottom: 8px;
+		line-height: 24px;
+	}
+	form input, form textarea, form select {
+		margin-bottom: 15px;
+	}
+	.woocommerce nav.woocommerce-pagination {margin-bottom: 30px;}
+	textarea, textarea.form-control, .lvsy-form-textarea textarea, .woocommerce #reviews #comment, .lvsy-contact textarea {
+		height: 130px;
+	}
+	h1, .h1 {
+		font-size: 26px;
+	}
+	h2, .h2 {
+		font-size: 24px;
+	}
+	h3, .h3 {
+		font-size: 20px;
+	}
+	blockquote {
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.row {
+		margin: 0;
+	}
+	.swiper-container {
+		min-height: 400px;
+	}
+	.swiper-button-prev, .swiper-button-next {
+		right: 15px;
+	}
+	.swiper-button-prev {
+		left: 15px;
+	}
+	.swiper-button-prev:before, .swiper-button-next:before {
+		font-size: 36px;
+	}
+	.modal-dialog {
+		margin: 30px auto;
+	}
+	.modal-body .col-md-6 select {
+		background-position: 96% 50%;
+	}
+	.navbar-nav .open .dropdown-menu {
+		background-color: #f3187b;
+	}
+	.nav-tabs > li {
+		margin: 0 5px 15px;
+	}
+	.woocommerce.woo-col-3 ul.products li.product.last,
+	.woocommerce-page.woo-col-3 ul.products li.product.last,
+	.woocommerce.woo-col-3 ul.products li.product:nth-child(3n),
+	.woocommerce-page.woo-col-3 ul.products li.product:nth-child(3n) {
+		margin-right: 3.33%;
+	}
+	.tab-content {
+		padding: 15px 25px 0 25px;
+	}
+	.owl-drag .owl-prev:before {
+		left: -10px;
+	}
+	.owl-drag .owl-next:before {
+		right: -10px;
+	}
+	.lvsy-heading-wrap {
+		padding: 30px 10px;
+	}
+	.lvsy-heading-wrap br, .section-title-wrap br {
+		display: none;
+	}
+	.lvsy-heading-wrap .lvsy-heading {
+		padding-bottom: 5px;
+		font-size: 36px;
+		line-height: 36px;
+	}
+	.lvsy-heading-wrap .lvsy-sub-heading {
+		padding-bottom: 5px;
+	}
+	.lvsy-heading-wrap .event-time {
+		padding: 0;
+		font-size: 16px;
+	}
+	.lvsy-heading-wrap .clearfix {
+		padding-top: 8px;
+	}
+	.lvsy-nav {
+		width: auto;
+	}
+	.lvsy-event-schedule, .lvsy-join-event, .lvsy-travel-info, .lvsy-conference.conference-style-two, .lvsy-newsletter, .lvsy-pricing, .lvsy-conference.conference-style-three, .lvsy-conference.conference-style-two.conference-spacer-two, .lvsy-conference.conference-style-four, .lvsy-contact-form, .lvsy-main-wrap, .lvsy-past-event, .lvsy-contact, .lvsy-footer {
+		padding: 40px 0;
+	}
+		.lvsy-contact-form ,.lvsy-contact{
+			padding: 20px 0;
+		}
+	.lvsy-conference {
+		padding: 10px 0 40px;
+	}
+	.lvsy-conference p {
+		line-height: 24px;
+	}
+	.conference-title-wrap {
+		padding-bottom: 0;
+	}
+	.conference-location {
+		font-size: 14px;
+	}
+	.conference-title {
+		font-size: 24px;
+	}
+	.conference-sub-title {
+		margin-bottom: 5px;
+	}
+	.conference-location {
+		padding: 5px 0 20px;
+	}
+	.lvsy-countdown {
+		margin-bottom: 10px;
+	}
+	.lvsy-countdown .countdown_section {
+		width: 47%;
+		margin: 0 1.5% 3%;
+	}
+	.lvsy-speakers {
+		padding: 40px 0 15px;
+	}
+	.lvsy-speakers.speakers-style-two {
+		padding: 40px 25px 15px;
+	}
+	.lvsy-speakers.speakers-style-two .speaker-item {
+		margin-bottom: 25px;
+	}
+	.lvsy-speakers.speakers-style-four {
+		padding: 40px 0 15px;
+	}
+	.section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.section-title-wrap .section-title {
+		padding-bottom: 5px;
+	}
+	.section-title-wrap .section-sub-title {
+		line-height: 24px;
+	}
+	.speaker-item {
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 25px;
+	}
+	.event-menu:before {
+		left: 0;
+	}
+	.event-item {
+		padding: 0 0 0 26px;
+	}
+	.event-item:last-child .event-info {
+		margin-bottom: 0;
+	}
+	.event-item:nth-child(2n) [class*="col-"]:first-child {
+		float: none;
+	}
+	.event-item:nth-child(2n) .event-speaker {
+		float: none;
+		margin-left: 0;
+	}
+	.event-item:nth-child(2n) .event-speaker:before {
+		left: -35px;
+	}
+	.event-item:nth-child(2n) .event-info {
+		float: none;
+		margin-right: 0;
+	}
+	.event-speaker {
+		float: none;
+		padding: 20px 25px 17px;
+		margin: 0 0 15px;
+	}
+	.event-speaker:before {
+		left: -35px;
+		right: auto;
+	}
+	.event-info {
+		float: none;
+		padding: 20px 25px 17px;
+		margin: 0 0 25px;
+	}
+	.event-info p {
+		margin-bottom: 5px;
+	}
+	.lvsy-event-schedule.schedule-tab-style-two .tab-content {padding: 0;}
+
+	.lvsy-event-schedule.schedule-tab-style-two .vc_tta-color-white.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+		border-color: #D5D5D5;
+	}
+		.lvsy-event-schedule.schedule-tab-style-two .vc_tta-color-white.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+		border-color: #DFDFDF;
+	}
+	.event-info .speaker-name {
+		padding-bottom: 3px;
+	}
+	.event-address {
+		padding-top: 5px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-menu {
+		margin: 0 25px 5px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-menu:before, .lvsy-event-schedule.schedule-style-two .event-info:before, .lvsy-event-schedule.schedule-style-two .event-item.has-content .event-title:before, .lvsy-event-schedule.schedule-style-two .event-item.has-content .event-title:after {
+		display: none;
+	}
+	.lvsy-event-schedule.schedule-style-two .tab-content .nav-tabs > li > a {
+		padding: 12px;
+		font-size: 15px;
+	}
+	.lvsy-event-schedule.schedule-style-two .nav-tabs {
+		padding: 25px 25px 10px;
+	}
+	.lvsy-event-schedule.schedule-style-two .nav-tabs > li {
+		margin: 0 5px 10px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-item {
+		padding-left: 0;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info {
+		padding-top: 5px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info .event-title, .event-item .event-time {
+		font-size: 15px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info .event-title:before {
+		top: 1px;
+		left: -34px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info .event-title:after {
+		top: 1px;
+		left: -29px;
+	}
+	.lvsy-event-schedule.schedule-style-two .event-info .event-address {
+		padding-top: 5px;
+	}
+	.lvsy-join-event .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.lvsy-join-event .section-title-wrap .section-title {
+		padding-bottom: 5px;
+	}
+	.lvsy-event-gallery {
+		padding: 40px 0 15px;
+	}
+	.lvsy-glry {
+    text-align: center;
+	}
+	.lvsy-event-gallery.gallery-style-two {
+		padding: 40px 0 15px;
+	}
+	.lvsy-event-gallery.gallery-style-two .row {
+		margin: 0;
+	}
+	.lvsy-event-gallery.gallery-style-two [class*="col-"] {
+		padding: 0;
+	}
+	.lvsy-event-gallery .gallery-item {
+		margin-bottom: 25px;
+		width: auto;
+	}
+	.lvsy-event-gallery.gallery-style-two .gallery-item {
+		margin-bottom: 25px;
+	}
+	.lvsy-donors {
+		padding-bottom: 17px;
+	}
+	.lvsy-donors.lvsy-donors-style-two {
+		padding: 30px 0 15px;
+	}
+	.lvsy-donors.lvsy-donors-style-two .lvsy-donor-item {
+		margin-bottom: 0;
+	}
+	.lvsy-donors .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.lvsy-donor-category {
+		padding-bottom: 5px;
+	}
+	.lvsy-donor-title {
+		padding-bottom: 15px;
+	}
+	.lvsy-accommodation {
+		padding: 40px 0 15px;
+	}
+	.lvsy-accommodation .section-title-wrap {
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.lvsy-accommodation .section-title-wrap .pull-left {
+		width: 100%;
+	}
+	.lvsy-accommodation .lvsy-carousel {
+		margin: 0;
+	}
+	.lvsy-accommodation .owl-item {
+		padding: 0;
+	}
+	/*.lvsy-accommodation .owl-drag .owl-nav {
+		position: static;
+	}*/
+	/*.lvsy-accommodation .owl-drag .owl-prev, .lvsy-accommodation .owl-drag .owl-next {
+		display: block;
+	}*/
+	/*.lvsy-accommodation .owl-drag .owl-prev:before, .lvsy-accommodation .owl-drag .owl-next:before {
+		position: absolute;
+		color: #ffffff;
+		border-color: #ffffff;
+	}*/
+	.accommodation-item {
+		margin-bottom: 25px;
+	}
+	.accommodation-info {
+		padding: 25px 30px;
+	}
+	.accommodation-info .clearfix {
+		padding: 5px 0 0;
+	}
+	.accommodation-title {
+		padding-bottom: 5px;
+	}
+	.lvsy-feeds {
+		padding-top: 40px;
+	}
+	.twitter-tweet {
+		padding: 0 10px !important;
+		margin: 0 0 25px !important;
+	}
+	.lvsy-travel-info.travel-spacer-two {
+		padding-top: 15px;
+	}
+	.lvsy-travel-info .lvsy-map {
+		margin-bottom: 30px;
+	}
+	.lvsy-travel-info .nav-tabs {
+		margin-top: 25px;
+	}
+	.lvsy-travel-info .tab-content {
+		padding: 25px;
+	}
+	.travel-info {
+		padding-left: 25px;
+	}
+	.travel-info .col-md-8 {
+		float: left;
+		width: 66.6667%;
+	}
+	.travel-info .col-md-4 {
+		float: left;
+		width: 33.3333%;
+	}
+	.lvsy-map {
+		height: 250px;
+	}
+	.lvsy-newsletter .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.newsletter-wrap {
+		width: 100%;
+	}
+	.lvsy-pricing.pricing-spacer-two {
+		padding-bottom: 10px;
+	}
+	.lvsy-pricing.pricing-spacer-two .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.lvsy-pricing.pricing-spacer-two .additional-pricing {
+		padding: 0 0 15px;
+	}
+	.pricing-item {
+		margin-bottom: 25px;
+	}
+	.additional-pricing {
+		padding: 0;
+	}
+	.additional-pricing p {
+		font-size: 15px;
+	}
+	.lvsy-news {
+		padding: 40px 0 15px;
+	}
+	.news-item {
+		margin-bottom: 25px;
+	}
+	.news-info {
+		padding-top: 15px;
+	}
+	.news-title br {
+		display: none;
+	}
+	.lvsy-page-title .page-title {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.page-title-wrap, .lvsy-page-title.title-style-two .page-title-wrap {
+		padding: 70px 0 75px;
+	}
+	.lvsy-primary {
+		padding-bottom: 25px;
+	}
+	.lvsy-pagination {
+		padding: 5px 0 19px;
+	}
+	.lvsy-pagination a, .lvsy-pagination span {
+		margin-bottom: 6px;
+	}
+  .blog-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .blog-meta {
+    padding-bottom: 5px;
+  }
+  .blog-links {
+    margin-top: 20px;
+  }
+  .lvsy-search-form {
+    margin-bottom: 20px;
+  }
+  .lvsy-widget {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  .lvsy-widget .widget-title {
+    margin-bottom: 15px;
+  }
+  .lvsy-widget ul li {
+    margin-bottom: 10px;
+  }
+  .lvsy-instagram-gallery ul li {
+  	margin-bottom: 0;
+  }
+	.lvsy-footer h2 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.lvsy-footer h5 {
+		margin-bottom: 10px;
+		line-height: 24px;
+	}
+	.lvsy-footer .lvsy-social {
+		padding-top: 15px;
+	}
+	/* Livesay Home V2 Page CSS */
+	.lvsy-conference p {
+		font-size: 15px;
+	}
+	.conference-info h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.lvsy-services {
+		padding: 40px 0 15px;
+	}
+	.service-item {
+		padding-bottom: 25px;
+	}
+	.service-item .service-icon, .service-item .service-title {
+		padding-bottom: 5px;
+	}
+	.service-item .clearfix {
+		padding-top: 5px;
+	}
+	/* Livesay Home V3 Page CSS */
+	.lvsy-conference.conference-style-three .conference-title {
+		margin-bottom: 5px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.lvsy-conference.conference-style-three .lvsy-countdown {
+		display: block;
+		overflow: hidden;
+		clear: both;
+		margin-top: 15px;
+	}
+	.lvsy-conference.conference-style-three .lvsy-countdown .countdown_section {
+		float: left;
+		margin: 0 1.5% 3%;
+	}
+	.lvsy-speakers.speakers-style-three {
+		padding: 40px 0 15px;
+	}
+	.lvsy-speakers.speakers-style-three .speaker-info {
+		padding-bottom: 0;
+	}
+	.lvsy-pricing.pricing-style-two {
+		padding-bottom: 32px;
+	}
+	.lvsy-pricing.pricing-style-two .row {
+		margin: 0;
+	}
+	.lvsy-pricing.pricing-style-two [class*="col-"] {
+		padding: 0;
+	}
+	.lvsy-pricing.pricing-style-two .pricing-item {
+		padding: 25px;
+		margin-bottom: 25px;
+	}
+	.lvsy-pricing.pricing-style-two .pricing-item .price, .lvsy-pricing.pricing-style-two .pricing-item .pricing-info ul {
+		padding-bottom: 20px;
+	}
+	.lvsy-pricing.pricing-style-two .pricing-item .price {text-align: center}
+	.pricing-wrap {
+		padding-top: 35px;
+	}
+	/* Livesay Single Events Page CSS */
+	.event-author {
+		padding-bottom: 10px;
+	}
+	.event-author ul {
+		padding-top: 25px;
+	}
+	.event-author ul li {
+		margin-bottom: 15px;
+	}
+	.event-detail h4 {
+		padding-top: 5px;
+	}
+	.event-venus {
+		padding: 5px 0 20px;
+	}
+	.event-venus .lvsy-map {
+		height: 250px;
+	}
+	.venus-info {
+		padding: 25px;
+	}
+	.venus-info h4 {
+		padding-top: 0;
+	}
+	.tickets-pricing h4 {
+		padding-top: 0;
+		margin-bottom: 15px;
+	}
+	.lvsy-donor-wrap {
+		margin-top: 5px;
+	}
+	.lvsy-donor-profile ul {
+		padding: 25px 25px 15px;
+	}
+	.lvsy-donor-profile ul li {
+		margin-bottom: 15px;
+	}
+	.lvsy-donor-info {
+		padding-top: 15px;
+	}
+	/* Speakers */
+	.speaker-info {
+    width: 100%;
+    right: 0;
+    margin: 0 auto;
+	}
+	/* Livesay Speaker Single Page CSS */
+	.lvsy-speaker-detail {
+		padding-top: 40px;
+	}
+	.speaker-detail-wrap {
+		padding-top: 20px;
+	}
+	.speaker-detail-wrap .speaker-designation {
+		padding-bottom: 5px;
+	}
+	.speaker-detail-wrap .speaker-quote {
+		padding-bottom: 10px;
+	}
+	.speaker-link {
+		padding-top: 10px;
+	}
+	/* Livesay About Page CSS */
+	.lvsy-conference.conference-style-two.conference-spacer-two .conference-info {
+		padding-bottom: 25px;
+	}
+	.lvsy-conference.conference-style-four .conference-title-wrap .conference-title {
+		margin-bottom: 0;
+	}
+	.lvsy-conference.conference-style-four .conference-location {
+		padding-bottom: 20px;
+	}
+	/* Livesay Gallery Page CSS */
+	.gallery-info .gallery-title {
+		font-size: 18px;
+	}
+	/* Livesay lvsy-donors Page CSS */
+	.lvsy-donors.lvsy-donors-style-three {
+		padding: 40px 0 15px;
+		width: 100%;
+	}
+	.lvsy-donors.lvsy-donors-style-three .lvsy-donor-category {
+		padding-bottom: 0;
+	}
+	.lvsy-donors.lvsy-donors-style-three .lvsy-donor-title {
+		padding-bottom: 20px;
+	}
+	.lvsy-donors.lvsy-donors-style-three .lvsy-donor-item {
+		padding: 25px;
+		margin-bottom: 25px;
+	}
+	.lvsy-donors.lvsy-donors-style-three .one-fifth .lvsy-donor-item {
+		padding: 25px;
+	}
+	.lvsy-donor-item .lvsy-donor-logo {
+		padding-bottom: 15px;
+	}
+	.lvsy-donor-item .lvsy-donor-name {
+		padding-bottom: 5px;
+		font-size: 14px;
+	}
+	.one-fifth {
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+  /* Livesay lvsy-donor Single Page CSS */
+  .lvsy-donor-detail .lvsy-donor-profile ul {
+    padding: 25px 25px 15px;
+  }
+  .lvsy-donor-detail .lvsy-donor-info h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .contact-lvsy-donor {
+    padding: 7px 0 25px;
+  }
+  .lvsy-donor-events {
+    padding-top: 25px;
+  }
+  .lvsy-donor-events [class*="col-"] {
+    float: left;
+    width: 50%;
+  }
+  .lvsy-donor-events [class*="col-"]:last-child .lvsy-donor-event, .lvsy-donor-events [class*="col-"]:nth-last-child(-n+2) .lvsy-donor-event {
+    margin-bottom: 0;
+  }
+  .lvsy-donor-events-title {
+    padding-bottom: 15px;
+  }
+  /* Livesay Venus Page CSS */
+  .lvsy-accommodation.accommodation-style-two {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    display: inline;
+  }
+  .lvsy-accommodation.accommodation-style-two .accommodation-item {
+  	margin-top: 25px;
+  }
+  .lvsy-accommodation.accommodation-style-two .section-title-wrap {
+    padding-bottom: 20px;
+  }
+  .lvsy-accommodation.accommodation-style-two .accommodation-item, .facility-item {
+    margin-bottom: 25px;
+  }
+  .lvsy-conference-facilities {
+    padding: 10px 0 15px;
+  }
+  .facility-info {
+    padding: 25px;
+  }
+  /* Livesay Blog Page CSS */
+  .blog-item {
+    padding-bottom: 0;
+  }
+  .blog-info {
+    width: auto;
+    padding: 20px 0 25px;
+    margin: 0;
+  }
+  .blog-infos {
+    padding: 20px 0 25px;
+    width: auto;
+    margin-left: 0;
+	}
+  .blog-title, .blog-meta {
+  	text-align: left;
+  }
+  .lvsy-instagram-gallery ul {
+  	padding-bottom: 0;
+  }
+  /* Livesay Blog Single Page CSS */
+  .lvsy-blog-detail .blog-picture {
+  	padding-bottom: 20px;
+  }
+  .lvsy-more-posts .pull-left {
+  	width: 100%;
+  	padding-bottom: 5px;
+  }
+  .lvsy-more-posts .pull-right {
+  	width: 100%;
+  }
+  .lvsy-author-info {
+  	padding: 25px;
+  	margin-top: 25px;
+  }
+  .author-content .author-name {
+  	margin-bottom: 5px;
+  }
+  .comments-section {
+  	padding: 25px 0 0;
+  }
+  .lvsy-comments-area .comments-title, .comment-reply-title {
+  	margin-bottom: 15px;
+  }
+  .lvsy-comments-area .comment-image img {
+  	width: 80px;
+  	height: 80px;
+  }
+  .lvsy-comments-area .comment-main-area {
+  	padding-top: 0;
+  	margin-bottom: 25px;
+  }
+  .lvsy-comments-area .comment-wrapper {
+  	padding-bottom: 10px;
+  }
+  .lvsy-comments-area .comments li .children li {
+  	padding-left: 35px;
+  }
+  .lvsy-comments-area .lvsy-comments-meta {
+  	margin-bottom: 5px;
+  }
+  .lvsy-comment-form form label {
+  	margin-bottom: 10px;
+  	font-size: 15px;
+  }
+  .lvsy-comment-form {
+  	padding-bottom: 10px;
+  }
+  .lvsy-comment-form input[type="submit"] {
+  	margin-top: 10px;
+  }
+  /* Livesay Entry Content Page CSS */
+  .entry-content dd {
+    margin-bottom: 10px;
+  }
+  .wp-caption {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .entry-content .comment-list article, .entry-content .comment-list .pingback, .entry-content .comment-list .trackback {
+    padding: 20px 0;
+  }
+  .entry-content .comment-content ul, .entry-content .comment-content ol {
+    margin: 0 0 10px 0;
+  }
+  .entry-content .comment-metadata {
+    margin-bottom: 5px;
+  }
+  .entry-content .comment-list .comment-reply-link {
+    margin-top: 0;
+  }
+  .entry-content .comment-list .children {
+    padding-left: 10px;
+  }
+  .brxy-unit-fix .entry-content .comment-form {
+    padding-top: 0;
+  }
+  .brxy-unit-fix .entry-content .comment-list article, .brxy-unit-fix .entry-content .comment-list .pingback, .brxy-unit-fix .entry-content .comment-list .trackback {
+    padding: 15px 0 20px;
+  }
+  /* Livesay Past Event Page CSS */
+  .lvsy-event-video {
+  	height: 300px;
+  }
+  .lvsy-past-event .section-title-wrap .section-title {
+  	padding-bottom: 5px;
+  }
+  .lvsy-past-event .section-title-wrap .section-sub-title {
+  	font-size: 16px;
+  }
+  .lvsy-past-event .clearfix {
+  	padding-top: 10px;
+  }
+  .event-videos {
+  	padding-top: 25px;
+  	margin-top: 25px;
+  }
+  .event-videos h5 {
+  	margin-bottom: 15px;
+  }
+  .event-videos .row {
+  	margin: 0;
+  }
+  .event-videos [class*="col-"] {
+  	padding: 0;
+  }
+  .video-item {
+  	margin-bottom: 25px;
+  }
+  .more-videos {
+  	padding: 0;
+  }
+  .lvsy-event-files p {
+  	margin-bottom: 10px;
+  }
+  .lvsy-event-files .section-title-wrap {
+  	padding-bottom: 10px;
+  }
+  .file-info {
+  	padding: 40px 25px 25px;
+  }
+  .file-info .clearfix {
+  	padding-top: 10px;
+  }
+  .file-info .clearfix .lvsy-btn {
+  	margin: 0 15px 15px 0;
+  }
+  .lvsy-donors.lvsy-donors-spacer-three {
+  	padding-top: 40px;
+  }
+  /* Livesay Shop Page CSS */
+  .woocommerce ul.products {
+  	padding-top: 25px;
+  }
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  	width: 100%;
+  	margin: 0 0 20px;
+  }
+  .woocommerce nav.woocommerce-pagination ul {
+  	padding: 0;
+  }
+	.lvsy-widget.widget-search {
+		margin-bottom: 0;
+	}
+  .rangeSlider {
+  	margin-bottom: 25px;
+  }
+  /* Livesay Product Details Page CSS */
+  .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce #review_form #respond .comment-form-author, .woocommerce #review_form #respond .comment-form-email {
+  	float: none;
+  	width: auto;
+  }
+  .woocommerce div.product div.images div.thumbnails {
+  	padding-top: 15px;
+  }
+  .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+  	float: none;
+  	width: auto;
+  	padding: 10px 0 0;
+  }
+  .woocommerce-tabs {
+  	padding-top: 25px;
+  }
+  .woocommerce div.product .woocommerce-tabs ul.tabs {
+  	position: static;
+  	width: auto;
+  	margin-bottom: 20px;
+  }
+  .woocommerce div.product .woocommerce-tabs .panel {
+  	padding-left: 0;
+  }
+  .woocommerce-Tabs-panel p {
+  	line-height: 24px;
+  }
+  .woocommerce #reviews #comments ol.commentlist {
+  	padding-bottom: 0;
+  }
+  .woocommerce-Tabs-panel h2 {
+  	margin-bottom: 15px;
+  	font-size: 18px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+  	margin-bottom: 5px;
+  }
+  .woocommerce #reviews h3 {
+  	font-size: 18px;
+  }
+  .woocommerce #review_form #respond .form-submit input {
+  	margin-top: 10px;
+  }
+  /* Livesay Cart Page CSS */
+  .woocommerce table.shop_table {
+  	margin-bottom: 30px;
+  }
+  .woocommerce table.shop_table th {
+  	padding: 20px;
+  }
+  .woocommerce #content table.cart td.actions, .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions {
+  	text-align: left;
+  }
+  .woocommerce .cart .actions input.updated[type="submit"] {
+  	float: left;
+  	margin: 20px 0 20px;
+  }
+  .woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
+  	padding-top: 10px;
+  }
+  .woocommerce .cart_totals table.shop_table {
+  	padding: 0 25px;
+  }
+  .woocommerce .cart_totals table.shop_table th, .woocommerce .cart_totals table.shop_table td {
+  	padding: 20px 15px;
+  }
+  .cart_totals h2 {
+  	margin-bottom: 15px;
+  }
+  /* Livesay Checkout Page CSS */
+  .woocommerce-error, .woocommerce-info, .woocommerce-message {
+  	margin-bottom: 25px !important;
+  }
+  .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+  	margin: 20px 0;
+  }
+  .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+  	float: none;
+  	width: auto;
+  }
+  .woocommerce form .form-row input.input-text, .woocommerce form .form-row select, .woocommerce form .form-row textarea {
+  	margin-bottom: 15px;
+  }
+  .woocommerce-checkout {
+  	padding-top: 0;
+  }
+  .woocommerce-checkout h3 {
+  	margin-bottom: 15px;
+  }
+  .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+  	padding-bottom: 10px;
+  }
+  .woocommerce form .diffrent-address, .woocommerce div.create-account {
+  	padding: 0;
+  }
+  .woocommerce form .shipping-diffrent-address {
+  	padding-top: 0;
+  }
+  .woocommerce .woocommerce-checkout-review-order {
+  	padding: 30px;
+  }
+  .woocommerce .woocommerce-checkout-review-order h3 {
+  	margin-bottom: 10px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table th, .woocommerce .woocommerce-checkout-review-order table.shop_table td {
+  	padding: 15px 0;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table {
+  	margin-bottom: 10px;
+  }
+  /* Livesay Contact Page CSS */
+  .lvsy-map.contact-map {
+    height: 250px;
+  }
+  .contact-info {
+    padding-top: 0px;
+  }
+  .contact-info br {
+    display: none;
+  }
+  .contact-info ul {
+    padding-top: 15px;
+  }
+  .contact-info ul li {
+    margin-bottom: 10px;
+  }
+  /* Livesay 404 Page CSS */
+  .lvsy-error {
+    padding-bottom: 40px;
+  }
+  .error-title-wrap .error-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .lvsy-error .clearfix img {
+    width: 300px;
+  }
+  .error-title-wrap {
+    padding: 20px 0 10px;
+  }
+  .error-title-wrap p {
+    font-size: 15px;
+  }
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul {padding: 0;}
+  .woocommerce-account .woocommerce-MyAccount-navigation,
+  .woocommerce-account .woocommerce-MyAccount-content {width: 100%;}
+  .woocommerce-account .woocommerce-MyAccount-content {margin-top: 30px;}
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul li:last-child {border-bottom: 1px solid #ECECEC;}
+}
+@media screen and (max-width:667px) {
+	.woocommerce .cart .actions input[type="submit"] {
+		margin-left: 10px
+	}
+	.woocommerce .order_details li {
+		padding-top: 12px;
+	}
+}
+
+@media screen and (max-width:599px) {
+	/* Livesay Normal CSS */
+	blockquote {
+		padding-left: 25px;
+	}
+	#tribe-events .lvsy-secondary-speaker {
+		width: 100%;
+		padding-right: 20px;
+	}
+	.nav-tabs {
+		font-size: 14px;
+	}
+	.modal-dialog {
+		width: auto;
+		margin: 15px;
+	}
+	.modal-header {
+		padding: 20px 35px;
+	}
+	.modal-header .modal-title {
+		font-size: 20px;
+	}
+	.modal-body {
+		padding: 25px;
+	}
+	.lvsy-heading-wrap .lvsy-heading {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.lvsy-heading-wrap .lvsy-sub-heading {
+		font-size: 15px;
+	}
+	.lvsy-heading-wrap .event-time {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.conference-title-wrap h2 {
+		margin-bottom: 5px;
+		font-size: 18px;
+	}
+	.conference-title-wrap h4 {
+		font-size: 16px;
+	}
+	.section-title-wrap .section-title {
+		font-size: 20px;
+	}
+	.lvsy-join-event .section-title-wrap .section-title {
+		font-size: 20px;
+	}
+	.lvsy-donor-title {
+		font-size: 16px;
+	}
+	.twitter-tweet {
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	.lvsy-event-schedule.schedule-style-two .tab-content .nav-tabs > li > a {
+		font-size: 14px;
+	}
+	.lvsy-travel-info form label {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.lvsy-travel-info .nav-tabs > li {
+		width: 33.3333%;
+	}
+	.lvsy-travel-info .nav-tabs > li:nth-child(3n) > a {
+		border-right: none;
+	}
+	.travel-info .col-md-8, .travel-info .col-md-4 {
+		float: none;
+		width: auto;
+	}
+	.travel-info .clearfix {
+		padding-top: 2px;
+	}
+	.travel-time {
+		padding-top: 5px;
+		text-align: left;
+	}
+	.pricing-item .price {
+		padding: 30px;
+	}
+	.pricing-info {
+		padding: 25px 30px 30px;
+	}
+	.lvsy-page-title .page-title {
+		margin-bottom: 3px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.page-title-wrap, .lvsy-page-title.title-style-two .page-title-wrap {
+		padding: 60px 0 65px;
+	}
+	.lvsy-footer h2 {
+		font-size: 24px;
+	}
+	/* Livesay Home V2 Page CSS */
+	.newsletter-wrap input[type="email"] {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.newsletter-wrap input[type="submit"] {
+		min-width: 100%;
+	}
+	/* Livesay Home V3 Page CSS */
+	.lvsy-conference.conference-style-three .conference-title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.lvsy-pricing.pricing-style-two .pricing-item .price, .lvsy-pricing.pricing-style-two .pricing-item .pricing-info ul {
+		padding-bottom: 10px;
+	}
+	.pricing-item .price h2 {
+		font-size: 45px;
+	}
+	.lvsy-pricing.pricing-style-two .pricing-item .price h5 {
+		margin-bottom: 10px;
+	}
+	/* Livesay Single Events Page CSS */
+  .lvsy-donor-info h5 {
+    line-height: 24px;
+  }
+	.venus-info p span {
+		padding: 0 5px;
+	}
+	/* Livesay Speaker Single Page CSS */
+	.speaker-detail-wrap {
+		padding-top: 15px;
+	}
+	.speaker-detail-wrap .speaker-name {
+		font-size: 18px;
+	}
+	.speaker-detail-wrap .speaker-designation {
+		font-size: 14px;
+	}
+	.speaker-detail-wrap .speaker-quote {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	/* Livesay Blog Page CSS */
+	.blog-title {
+		font-size: 18px;
+	}
+	.blog-links {
+		padding-top: 15px;
+    margin-top: 15px;
+  }
+  /* Livesay Blog Single Page CSS */
+  .lvsy-blog-tags {
+  	float: none;
+  	width: auto;
+  	padding-bottom: 10px;
+  }
+  .lvsy-blog-meta {
+  	padding: 5px 0 20px;
+  }
+  .lvsy-blog-share {
+  	float: none;
+  	text-align: left;
+  }
+  .lvsy-author-info {
+  	text-align: center;
+  }
+  .author-avatar {
+  	float: none;
+  }
+  .author-content {
+  	clear: both;
+  	padding: 15px 0 0;
+  }
+  .lvsy-comments-area .comments li .children li {
+  	padding-left: 20px;
+  }
+  .lvsy-comments-area .comment-main-area {
+  	clear: both;
+  	padding: 15px 0 0;
+  }
+  /* Livesay Past Event Page CSS */
+  .lvsy-event-video {
+  	height: 250px;
+  }
+  .lvsy-past-event .section-title-wrap .section-title {
+  	font-size: 20px;
+  }
+  /* Livesay Shop Page CSS */
+  .woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+  	float: none;
+  	margin: 0 0 15px;
+  	text-align: center;
+  }
+  .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+  	float: none;
+  }
+  .woocommerce .woocommerce-ordering select {
+  	width: 100%;
+  }
+  /* Livesay Product Details Page CSS */
+  .woocommerce #reviews #comments ol.commentlist li:last-child {
+  	margin-bottom: 0;
+  }
+  /* Livesay Checkout Page CSS */
+  .woocommerce form.checkout_coupon input.input-text {
+  	float: none;
+  	width: 100%;
+  }
+  .woocommerce form.checkout_coupon input.button {
+  	float: none;
+  	width: 100%;
+  	margin-left: 0;
+  }
+  .payment_method_cod .pull-right {
+  	width: 100%;
+  	padding-top: 5px;
+  }
+  .woocommerce .woocommerce-checkout-review-order {
+  	padding: 25px;
+  }
+  /* Livesay 404 Page CSS */
+  .error-title-wrap .error-title {
+    padding-bottom: 5px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .lvsy-error .clearfix img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width:645px) {
+
+	.woocommerce ul.products li.product:nth-child(2n),
+	.woocommerce-page ul.products li.product:nth-child(2n),
+	.woocommerce ul.products[class*=columns-] li.product:nth-child(2n),
+	.woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n) {
+		float:none;
+	}
+	.woocommerce nav.woocommerce-pagination {margin-bottom: 30px;}
+}
+
+@media screen and (max-width:508px) {
+	.admin-bar .is-sticky .lvsy-header {
+		top: 0 !important;
+	}
+	/* Shop */
+	.woocommerce ul.products li.product:nth-child(2n+1), .woocommerce-page ul.products li.product:nth-child(2n+1), .woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n){
+		margin-right: 0
+	}
+	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n) {
+		float: none;
+	}
+}
+@media screen and (max-width:480px) {
+	.lvsy-instagram-gallery ul li {
+		width: 25%;
+	}
+	.woocommerce .cart .actions input[type="submit"] {
+		margin-left: 0;
+	}
+	.woocommerce-cart table.cart td.actions .coupon .input-text {
+		margin-right: 0;
+	}
+	.woocommerce .cart .actions .coupon input[type="submit"] {
+		min-width: 48%;
+	}
+}
+@media screen and (max-width:479px) {
+	/* Livesay Normal CSS */
+	.wpcf7-list-item-label {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.nav-tabs > li {
+		margin: 0 2px 8px;
+	}
+	.shopping-handbag {
+		padding-left: 20px;
+	}
+	.lvsy-countdown .countdown_amount {
+		padding: 20px;
+		font-size: 36px;
+	}
+	.lvsy-conference.conference-style-three .lvsy-countdown .countdown_amount {
+		font-size: 36px;
+	}
+	.lvsy-donors {
+		padding-bottom: 10px;
+	}
+	.lvsy-donor-item {
+		display: block;
+		margin: 0 0 20px;
+	}
+	.lvsy-event-schedule.schedule-style-two .nav-tabs {
+		padding: 20px 20px 10px;
+	}
+	.lvsy-event-schedule.schedule-style-two .tab-content .nav-tabs > li {
+		width: 100%;
+	}
+	.lvsy-travel-info .nav-tabs > li {
+		width: 50%;
+	}
+	.lvsy-travel-info .nav-tabs > li:nth-child(3n) > a {
+		border-right: 1px solid #ececec;
+	}
+	.lvsy-travel-info .nav-tabs > li:nth-child(2n) > a, .lvsy-travel-info .nav-tabs > li:last-child > a {
+		border-right: none;
+	}
+	.lvsy-travel-info .tab-content {
+		text-align: center;
+	}
+	.lvsy-travel-info .pull-left {
+		width: 100%;
+	}
+	.travel-info {
+		clear: both;
+		padding: 15px 0 0;
+	}
+	.travel-time {
+		text-align: center;
+	}
+	.page-title-wrap, .lvsy-page-title.title-style-two .page-title-wrap {
+		padding: 50px 0 55px;
+	}
+	.lvsy-footer h2 {
+		margin-bottom: 15px;
+		font-size: 22px;
+	}
+	.lvsy-footer h5 {
+		margin-bottom: 5px;
+	}
+	.lvsy-copyright {
+		font-size: 14px;
+	}
+	/* Livesay Home V2 Page CSS */
+	.conference-info h2 {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	/* Livesay lvsy-donors Page CSS */
+	.lvsy-donors.lvsy-donors-style-three .lvsy-donor-item, .lvsy-donors.lvsy-donors-style-three .one-fifth .lvsy-donor-item {
+		padding: 25px 20px;
+	}
+  /* Livesay lvsy-donor Single Page CSS */
+  .lvsy-donor-detail .lvsy-donor-info h4 {
+    font-size: 18px;
+  }
+  .lvsy-donor-events .row {
+    margin: 0;
+  }
+  .lvsy-donor-events [class*="col-"] {
+    float: none;
+    width: auto;
+    padding: 0;
+  }
+  .lvsy-donor-events [class*="col-"]:nth-last-child(-n+2) .lvsy-donor-event {
+    margin-bottom: 25px;
+  }
+  .lvsy-donor-events [class*="col-"]:last-child .lvsy-donor-event {
+    margin-bottom: 0;
+  }
+  .lvsy-donor-event {
+    margin-bottom: 25px;
+  }
+  .lvsy-donor-event img {
+    width: auto;
+  }
+  /* Livesay Blog Page CSS */
+  .continue-reading {
+  	float: none;
+  	width: auto;
+  	padding-bottom: 10px;
+  }
+  .share-blog {
+  	float: none;
+  	width: auto;
+  	text-align: left;
+  }
+  .share-blog span:after {
+  	opacity: 1;
+  	visibility: visible;
+  	padding: 3px;
+  }
+  .share-blog.lvsy-hover span::after {
+  	top: 0;
+  }
+  .share-blog .icon-share {
+  	display: none;
+  }
+  /* Livesay Entry Content Page CSS */
+  .entry-content .comment-list .children {
+    padding-left: 0;
+  }
+  .brxy-unit-fix .entry-content .comment-list .children > li {
+    padding-left: 5px;
+  }
+  /* Livesay Product Details Page CSS */
+  .woocommerce div.product p.price, .woocommerce div.product span.price {
+  	font-size: 24px;
+  	line-height: 30px;
+  }
+  .woocommerce #review_form #respond p {
+  	font-size: 15px;
+  }
+  /* Livesay Cart Page CSS */
+  .woocommerce .wc-proceed-to-checkout .button.alt {
+  	float: none;
+  	min-width: 100%;
+  }
+  /* Livesay Checkout Page CSS */
+  .woocommerce form .form-row label.inline {
+  	display: block;
+  	margin: 15px 0 0;
+  }
+  /* Tribe Events Page */
+  .tribe-events-calendar thead th {
+    padding: 7px 3px;
+    font-size: 11px;
+	}
+
+}
+@media screen and (max-width:414px) {
+	/* Blog Single */
+	.lvsy-blog-share {
+		width: 100%;
+	}
+	.lvsy-accommodation .owl-drag .owl-nav {
+		right: 3px;
+    width: 100%;
+    top: -28px;
+	}
+	.acmdtin-align-center .vc_custom_heading {text-align:center !important;}
+
+	/* Blog Page */
+	.share-links {
+		vertical-align: middle;
+	}
+}
+@media screen and (max-width:360px) {
+	 /* Tribe Events page */
+  #tribe-bar-views .tribe-bar-views-list {
+  	width: 100%;
+  	padding-top: 20px;
+  }
+}
+@media screen and (max-width:408px) {.woocommerce .cart .actions .coupon input[type="submit"] { font-size: 11px; }}
+@media screen and (max-width:375px) {
+	.woocommerce-page table.cart td.actions .coupon .button, .woocommerce-page table.cart td.actions .coupon input, .woocommerce-cart table.cart td.actions .coupon .input-text {
+		width: 100%
+	}
+	.woocommerce-page table.cart td.actions .coupon .button, .woocommerce-page table.cart td.actions .coupon input {
+    margin-top: 12px;
+    margin-bottom: 5px;
+	}
+	.woocommerce .cart .actions input.updated[type="submit"] {
+    float: left;
+    margin: 2px 0 18px;
+	}
+
+}
+@media screen and (max-width:359px) {
+	/* Livesay Normal CSS */
+	.modal-header .modal-title {
+		font-size: 16px;
+	}
+	.lvsy-footer h2 {
+		font-size: 20px;
+	}
+	/* Livesay Home V2 Page CSS */
+	.conference-info h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+  /* Livesay 404 Page CSS */
+  .lvsy-error .clearfix img {
+    width: 200px;
+  }
+  /* Shop Page */
+  .woocommerce.woo-col-3 ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce.woo-col-4 ul.products li.product, .woocommerce-page ul.products li.product {
+  	width: 100%;
+  }
+}
+@media screen and (max-width:320px) {
+	.lvsy-conference.conference-style-three .lvsy-countdown .countdown_section {
+		float: none;
+		margin: 0 0 3%;
+	}
+
+	/* Single Event Page*/
+	.lvsy-donor-links a {
+    font-size: 12px;
+	}
+
+}
